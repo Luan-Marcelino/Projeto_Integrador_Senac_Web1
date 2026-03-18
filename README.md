@@ -27,5 +27,5 @@ Página Inicial do site:
 ![Imagem da tela de início.](/pg1_trabalho.png)<br/><br/>
 Página explicando sobre a empresa:
 ![Imagem da tela de início.](/pg2_sobre.png)<br/><br/>
-Página o que fazemos:
+Página sobre a atuação da empresa:
 ![Imagem da tela de início.](/pg3_atuacao.png)
