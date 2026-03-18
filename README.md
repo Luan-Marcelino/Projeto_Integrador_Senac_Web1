@@ -24,8 +24,8 @@ sdasdsadasofjaoifj
 
 **Estrutura prevista da Landing Page:** <br/><br/>
 Página Inicial do site:
-![Imagem da tela de início.](/pg1_trabalho.png)<br/><br/>
+![Imagem da tela de início.](/assets/pg1.png)<br/><br/>
 Página explicando sobre a empresa:
-![Imagem da tela de início.](/pg2_sobre.png)<br/><br/>
+![Imagem da tela de início.](/assets/pg2.png)<br/><br/>
 Página sobre a atuação da empresa:
-![Imagem da tela de início.](/pg3_atuacao.png)
+![Imagem da tela de início.](/assets/pg3.png)
