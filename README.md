@@ -1,26 +1,31 @@
 # Projeto_Integrador_Senac_Web1
 
-Nome do projeto: 
-Landing Page para escritório de advocacia
+## Landing Page - Escritório de Advocacia
 
-Integrantes: 
-Gladson
-Tatiane
-Paulo
-Nickson
-Gabriel
-Luan
+**Integrantes:** <br/>
+- Gladson<br/>
+- Tatiana<br/>
+- Paulo<br/>
+- Nickson<br/>
+- Gabriel<br/>
+- Luan<br/>
 
-Descrição da proposta:
+**Descrição da proposta:** <br/>
 Página de oferecimento de serviços
 
-Publico-alvo:
+**Publico-alvo:** <br/>
 Internautas consumidores de mídas-sociais
 
-API escolhida:
+**API escolhida:** <br/>
 DataJud
 
-Planejamento das tarefas:
+**Planejamento das tarefas:** <br/>
 sdasdsadasofjaoifj
 
-Estrutura prevista da Landing Page:
+**Estrutura prevista da Landing Page:** <br/><br/>
+Página Inicial do site:
+![Imagem da tela de início.](/pg1_trabalho.png)<br/><br/>
+Página explicando sobre a empresa:
+![Imagem da tela de início.](/pg2_sobre.png)<br/><br/>
+Página o que fazemos:
+![Imagem da tela de início.](/pg3_atuacao.png)
