@@ -37,7 +37,7 @@
 * **`Gladson`:** Responsável pela criação do repositório no GitHub e pela elaboração do wireframe da página, definindo a estrutura visual inicial da Landing Page.<br/>
 * **`Tatiana`:** Responsável pela organização do projeto, incluindo a distribuição das funções entre os integrantes, definição da proposta do projeto, identificação do público-alvo e levantamento das necessidades a serem atendidas pela aplicação.<br/>
 * **`Nickson`, `Paulo` e `Gabriel`:** Responsável pela escolha da API pública a ser utilizada, bem como pela configuração inicial e testes de integração com a aplicação.<br/>
-* **`Luan`:** Responsável por apoiar na elaboração do wireframe e na elaboração do README do projeto.<br/><br/>
+* **`Luan`:** Responsável por apoiar na elaboração do wireframe e na elaboração e documentação do README do projeto.<br/><br/>
 
 ## Estrutura prevista da Landing Page:
 Página Inicial do site:
