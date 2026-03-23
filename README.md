@@ -47,7 +47,7 @@
 <br/>
 &emsp;A equipe foi organizada de forma estratégica, considerando diferentes responsabilidades dentro do projeto:
 <br/>
-* **`Gladson e Ana`:** Responsáveis pela criação do repositório no GitHub e pela elaboração do wireframe da página, definindo a estrutura visual inicial da Landing Page, assim como a criação e públicação do site.<br/>
+* **`Gladson` e `Ana`:** Responsáveis pela criação do repositório no GitHub e pela elaboração do wireframe da página, definindo a estrutura visual inicial da Landing Page, assim como a criação e públicação do site.<br/>
 * **`Tatiana`:** Responsável pela organização do projeto, incluindo a distribuição das funções entre os integrantes, definição da proposta do projeto, identificação do público-alvo e levantamento das necessidades a serem atendidas pela aplicação.<br/>
 * **`Nickson`, `Paulo` e `Gabriel`:** Responsáveis pela escolha da API pública a ser utilizada, bem como pela configuração inicial e testes de integração com a aplicação.<br/>
 * **`Luan`:** Responsável por apoiar na elaboração do wireframe e na elaboração e documentação do README do projeto.<br/><br/>
