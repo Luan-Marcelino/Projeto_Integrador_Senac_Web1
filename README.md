@@ -4,7 +4,7 @@
 
 :busts_in_silhouette:**INTEGRANTES** <br/>
 - `Gladson Vinícios`<br/>
-- `Tatiana da Costa`<br/>
+- `Tatiana Hollanda`<br/>
 - `Nickson Kleyton`<br/>
 - `Paulo Victor`<br/>
 - `Gabriel Carvalho`<br/>
