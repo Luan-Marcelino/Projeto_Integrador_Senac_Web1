@@ -10,6 +10,7 @@ window.addEventListener('scroll', function() {
 });
 
 
+
 const dadosAtuacao = [
     { img: "../img/trabalhista.png", titulo: "Direito Trabalhista" },
     { img: "../img/inss2.jpg", titulo: "Direito Previdenciário" },
