@@ -25,21 +25,28 @@
 * **Necessidade principal:** Compreender seus direitos e obter orientação jurídica confiável. 
 <br/>
 
-:computer:**API ESCOLHIDA** <br/>
-&emsp;A API escolhida foi a **DataJud**, uma ferramenta que permite o acesso público aos metadados de processos judiciais de todo o Brasil. Os dados disponibilizados pela API são originários da **Base Nacional de Dados do Poder Judiciário** e seguem os critérios estabelecidos pela Portaria Nº 160 de 09/09/2020 bem como o resguardo de processos sigilosos e dados de partes.<br/><br/>
-&emsp;As informações principais que o projeto consumirá (via objeto JSON) são: <br/>
-* **Número do Processo**: O padrão CNPJ, com 7 dígitos e digito verificador, ano, tribunal e unidade.
-* **Classe Processual**: O tipo de ação, por exemplo: Procedimento comum e Execução de título.
-* **Órgão Julgador**: Qual vara ou tribunal está cuidando do caso.
-* **Data da Última Atualização**: Quando houver o útimo movimento do processo.
-* **Movimentações**: O histórico de "andamentos" do processo, por exemplo: Concluso para despacho e Sentença proferida. <br/> <br/>
-&emsp;O flúxo dos dados que serão exibidos na página: <br/> <br/>
-* **Requisição por Chave**: O usuário digita o número do processo em um campo de busca.
-* **Tratamento de Dados**: O JavaScript filtra os códigos numéricos que o CNJ envia e os transforma em nome amigáveis, por exemplo: Transformar o código da classe 11 em "Procedimento Comum".
-* **Renderização em Cards ou Tabelas**:
-  * **Cabeçalho**:Exibição em destaque do número do processo e status atual.
-  * **Timeline**: As movimentações serão exibidas em uma lista vertical, da mais recente para a mais antiga, facilitando a leitura do histórico judicial.
-<br/>
+:computer:*API ESCOLHIDA* <br/>
+&emsp;A API escolhida foi a *News API*, é uma API simples e em formato JSON que permite aos desenvolvedores pesquisar, rastrear e recuperar artigos e manchetes ao vivo de milhares de fontes de notícias e blogs em toda a web.<br/><br/>
+
+&emsp;As informações principais que o projeto consumirá:<br/>
+* *URL da imagem do artigo*
+* *Titulo do artigo*
+* *Descrição com máximo de 100 caracteres*
+* *Link do artigo*<br/><br/>
+
+&emsp;As informações estão organizadas em formato de *CARDS*, mostrando as 9 primeiras notícias relacionadas ao mundo do direito.<br/>
+
+&emsp;Para consumir as informações especificas sobre direito, é necessário inserir palavras chaves no endpoint da API. As palavras chaves são: 
+* Direito
+* Advogado
+* Direito trabalhista<br/><br/>
+
+&emsp;Outras informações são importantes estar no endpoint, como:
+* *Linguagem* - Definir a lingua portugues BR: language=pt
+* *Quantidade de páginas* - Limitar o número de resultados para não ter excesso de informação na landing page : pageSize=9
+* *A chave da API* - Chave que permite acessarmos essas informações da API.<br/>
+
+*Endpoint completo*:https://newsapi.org/v2/everything?q=direito+OR+advogado+OR+direito+trabalhista&language=pt&sortBy=publishedAt&pageSize=9&apiKey=${chaveAPI};<br/><br/>
 
 :date:**PLANEJAMENTO DAS TAREFAS** <br/>
 &emsp;O desenvolvimento da Landing Page, voltada para a área da advocacia trabalhista, será realizado ao longo de quatro semanas. Com divisão de tarefas entre os seis integrantes da equipe, visando garantir organização, qualidade e cumprimento dos prazos estabelecidos.
