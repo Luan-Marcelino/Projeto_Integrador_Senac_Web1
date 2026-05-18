@@ -7,7 +7,7 @@
     width: 100%;
     gap: 20px; /* Espaço entre os dois cards */
     padding: 100px 40px 40px 40px; /* Espaço para o menu fixo */
-
+    
 }
 
 /* Estilo comum para os dois blocos (Cards) */
@@ -78,12 +78,16 @@
     .capa-dividida {
         flex-direction: column;
         height: auto;
-        padding-top: 120px;
+        padding-top: 150px;
     }
     .coluna-imagem, .coluna-texto {
         width: 100%;
         height: auto;
-        padding: 40px 20px;
+        padding: 60px 0px 10px 0px;
+    }
+    .img-hero {
+        width: 150px;
+        max-width: 30%;
     }
 }
 
