@@ -1,0 +1,124 @@
+html {
+    scroll-behavior: smooth;
+    /* Ajuste o valor abaixo de acordo com a altura do seu menu (ex: 80px) */
+    scroll-padding-top: 60px; 
+}
+
+* { 
+    margin: 0; 
+    padding: 0; 
+    box-sizing: border-box; 
+    scroll-behavior: smooth; /* Você já tem esta linha no seu código */
+}
+
+:root {
+    --azul-marinho: #001F3F;
+    --dourado: #ebbc22;
+    --preto: #0A0A0A;
+    --branco-vidro: rgba(255, 255, 255, 0.1);
+}
+
+* { margin: 0; padding: 0; box-sizing: border-box; scroll-behavior: smooth; }
+
+
+body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; background-color: var(--preto); color: rgb(255, 255, 255); }
+
+
+/* Menu Fixo com Efeito Vidro - Transparência Ajustada */
+#navbar {
+    position: fixed; /* Fixa o menu no topo da página durante a navegação */
+    top: 0; /* Garante que o menu comece no limite superior da tela */
+    width: 100%; /* Faz com que a barra ocupe toda a largura disponível */
+    padding: 20px 50px; /* Define o espaçamento interno para não encostar nas bordas */
+    z-index: 1000; /* Coloca o menu acima de qualquer outro elemento da página */
+    background: rgba(255, 255, 255, 0.03) !important; /* Define um fundo quase totalmente transparente */
+    backdrop-filter: blur(10px); /* Cria o efeito de vidro foscando o que está por trás */
+    border-bottom: 1px solid rgba(247, 195, 27, 0.2); /* Linha fina dourada para separar o menu do conteúdo */
+    display: flex; /* Ativa o alinhamento flexível para os itens internos */
+    justify-content: space-between; /* Empurra a logo para a esquerda e a lista para a direita */
+    align-items: center; /* Centraliza verticalmente a logo e os links */
+    transition: background 0.5s ease-in-out; /* Suaviza a mudança de cor programada no JavaScript */
+}
+
+
+#navbar nav {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+/* Container da lista de navegação */
+#navbar ul { 
+    display: flex; /* Coloca os links um ao lado do outro horizontalmente */
+    list-style: none; /* Remove os pontos de enumeração padrão da lista */
+    margin-left: auto; /* ESTA LINHA GARANTE QUE OS LINKS FIQUEM À DIREITA */
+}
+
+/* Estilo individual dos links */
+#navbar ul li a { 
+    color: white; /* Define a cor do texto como branco para contraste */
+    text-decoration: none; /* Remove o sublinhado automático dos links */
+    margin-left: 30px; /* Cria um espaço uniforme entre cada link do menu */
+    font-weight: 500; /* Define uma espessura média para a fonte */
+    transition: 0.3s; /* Define a velocidade da animação ao passar o rato */
+}
+
+
+/* Efeito ao passar o rato nos links */
+#navbar ul li a:hover { 
+    color: var(--dourado); /* Altera a cor para o dourado definido no início do CSS */
+}
+
+/* Hero Section */
+.hero {
+    height: 100vh;
+    background: linear-gradient(rgba(0,31,63,0.8), rgba(10,10,10,0.9));
+    background-size: cover;
+    display: flex; align-items: center; justify-content: center; text-align: center;
+}
+
+.cta-button {
+    background-color: var(--dourado);
+    color: var(--preto);
+    padding: 15px 30px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    display: inline-block; margin-top: 20px;
+}
+
+/* Botões Flutuantes */
+.controles-flutuantes { position: fixed; bottom: 20px; right: 20px; z-index: 2000; }
+.btn-flutuante { 
+    display: flex; align-items: center; justify-content: center;
+    width: 60px; height: 60px; border-radius: 50%; 
+    margin-top: 15px; text-decoration: none; transition: 0.3s;
+}
+.btn-flutuante img { width: 35px; }
+.whatsapp-bg { background-color: #ffffff; }
+.topo-bg { background-color:  #ffffff;; color: var(--preto); font-size: 24px; font-weight: bold; }
+.btn-flutuante:hover { transform: scale(1.1); }
+
+@media(max-width:900px){ 
+    /* Medias do navbar*/
+    #navbar nav{
+        justify-content: center;
+    }
+
+    #navbar nav ul {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    #navbar ul li a {
+        margin-left: 0px;
+    }
+
+     #navbar nav .logo{
+        display: none;
+        
+     }
+
+}
