@@ -2,13 +2,13 @@ const lista_noticias = document.querySelector('#lista-noticias');
 
 //Função que vai consumir a API https://newsapi.org/
 const buscarNoticias = async () => {
-    const key = 'fb126b2d446041c38d5e632bdc526609'
-    const endpoint = `https://newsapi.org/v2/everything?q=direito+OR+advogado+OR+direito+trabalhista&language=pt&sortBy=publishedAt&pageSize=9&apiKey=${key}`;
+    const key = '51cfa7bc-494e-4fa7-8f9e-89bfad165ced'
+    const endpoint = `https://content.guardianapis.com/search?q=law&format=json&pages=7&order-by=relevance&api-key=${key}`;
 
     try {
         const response = await fetch(endpoint);
         const data = await response.json();
-
+        console.log(data)
         if (data.articles && data.articles.length > 0) {//Para o caso de não retornar nenhum artigo
             lista_noticias.innerHTML = '';
 
