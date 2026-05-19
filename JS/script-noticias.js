@@ -2,7 +2,8 @@ const lista_noticias = document.querySelector('#lista-noticias');
 
 //Função que vai consumir a API https://newsapi.org/
 const buscarNoticias = async () => {
-    const endpoint = '/.netlify/functions/noticias';
+    const key = 'fb126b2d446041c38d5e632bdc526609'
+    const endpoint = `https://newsapi.org/v2/everything?q=direito+OR+advogado+OR+direito+trabalhista&language=pt&sortBy=publishedAt&pageSize=9&apiKey=${key}`;
 
     try {
         const response = await fetch(endpoint);
